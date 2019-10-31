@@ -14,20 +14,6 @@ var dicePrevious=0;
 
 
 
-
-// document.querySelector('#current-'+activePlayer).textContent = dice;
-//document.querySelector('#current-'+activePlayer).innerHTML='<em>'+dice+'</em>'; have to string
-
-// var x = document.querySelector('#score-0').textContent;
-// console.log(x);
-
-
-
-/*function btn(){
-}
-document.querySelector('.btn-roll').addEventListener('click',btn); 
-*/
-
 document.querySelector('.btn-set').addEventListener('click',function(){
     setScore = document.getElementById("score").value;
     console.log(setScore);
